@@ -9,7 +9,7 @@ public class Main {
                 
                 String str1 = Integer.toString(f);
                 System.out.println(str1.replace(str1, kach));
-                Thread.sleep(600);
+                Thread.sleep(400);
                 
                 }
 
@@ -17,7 +17,7 @@ public class Main {
                 
                     String str2 = Integer.toString(f);
                     System.out.println(str2.replace(str2, ch));
-                    Thread.sleep(600);
+                    Thread.sleep(400);
                     
                     }
 
@@ -26,17 +26,15 @@ public class Main {
                 
                     String str3 = Integer.toString(f);
                     System.out.println(str3.replace(str3, ka));
-                    Thread.sleep(600);
+                    Thread.sleep(400);
                     
                     }
                     
                 else if (f%3 != 0 && f%5 != 0 && f%15 != 0) {
                     System.out.println(f);
-                    Thread.sleep(600);
+                    Thread.sleep(400);
                 }
-
-        
-        }
-
+        } 
     }
 }
+
