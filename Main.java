@@ -34,14 +34,9 @@ public class Main {
                     System.out.println(f);
                     Thread.sleep(600);
                 }
-                
-            
-            
-    
-
 
         
-    }
+        }
 
     }
 }
